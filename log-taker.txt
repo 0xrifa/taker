@@ -5443,3 +5443,15 @@
 5/20/2025 | 8:13:38 AM | INFO | Trying to activate mining on-chain for wallet: 0xBD83c025B80970b95a1A02403cB826356C4fDeC0 
 5/20/2025 | 8:13:39 AM | ERROR | Activate Mining Error: {"code":"CALL_EXCEPTION","action":"estimateGas","data":null,"reason":null,"transaction":{"to":"0xB3eFE5105b835E5Dd9D206445Dbd66DF24b912AB","data":"0x02fb0c5e","from":"0xBD83c025B80970b95a1A02403cB826356C4fDeC0"},"invocation":null,"revert":null,"shortMessage":"missing revert data","info":{"error":{"code":-32603,"message":"execution fatal: Module(ModuleError { index: 40, error: [5, 0, 0, 0], message: None })"},"payload":{"method":"eth_estimateGas","params":[{"nonce":"0x17","from":"0xbd83c025b80970b95a1a02403cb826356c4fdec0","to":"0xb3efe5105b835e5dd9d206445dbd66df24b912ab","data":"0x02fb0c5e"}],"id":3,"jsonrpc":"2.0"}}}
 5/20/2025 | 8:13:39 AM | ERROR | Wallet already start mine today or wallet dont have taker balance 
+5/20/2025 | 12:17:32 PM | WARN |   === Sever is down bot might be slow - Just be patient ===
+5/20/2025 | 12:17:32 PM | INFO | Start process for wallet 0xBD83c025B80970b95a1A02403cB826356C4fDeC0 
+5/20/2025 | 12:17:33 PM | INFO | Trying To Login for wallet: 0xBD83c025B80970b95a1A02403cB826356C4fDeC0 
+5/20/2025 | 12:17:34 PM | INFO | Login successful... 
+5/20/2025 | 12:17:34 PM | INFO | Trying to check user info... 
+5/20/2025 | 12:17:35 PM | INFO | User ID: 103403846 | Twitter: @myrifaa | Total Points: 2040000 
+5/20/2025 | 12:17:35 PM | INFO | Trying to check user miner status... 
+5/20/2025 | 12:17:36 PM | INFO | Last mining time: 5/19/2025, 4:17:54 AM
+5/20/2025 | 12:17:36 PM | INFO | Trying to start Mining for wallet: 0xBD83c025B80970b95a1A02403cB826356C4fDeC0 
+5/20/2025 | 12:17:36 PM | INFO | Mine response: {"code":500,"msg":"startMining Fail, startMining has not reached refresh time","data":null}
+5/20/2025 | 12:17:36 PM | INFO | Trying to activate mining on-chain for wallet: 0xBD83c025B80970b95a1A02403cB826356C4fDeC0 
+5/20/2025 | 12:17:43 PM | INFO | Activate Mining Hash: https://explorer.taker.xyz/tx/0x20c60c76394aa799564b5c3ed623103b510465b42a3ecb786d5f090b0961dae8 
